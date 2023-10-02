@@ -1,0 +1,72 @@
+/* CSS styles for ScheduleAI */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 5px;
+}

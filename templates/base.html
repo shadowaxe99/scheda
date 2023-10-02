@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ScheduleAI</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ScheduleAI</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/schedule">Schedule</a></li>
+                <li><a href="/calendar">Calendar</a></li>
+                <li><a href="/email">Email</a></li>
+                <li><a href="/meetings">Meetings</a></li>
+                <li><a href="/reports">Reports</a></li>
+            </ul>
+        </nav>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer>
+            <p>&copy; 2022 ScheduleAI. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
